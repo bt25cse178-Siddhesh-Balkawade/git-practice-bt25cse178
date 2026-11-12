@@ -1,0 +1,17 @@
+Command:  echo "First edit" >> README.md
+Command:  git add README.md
+Output: 
+
+warning: in the working copy of 'exercise-05/README.md', LF will be replaced by CRLF the next time Git touches it
+
+Command:  echo "Second edit" >> README.md
+Command:  git diff > diff_unstaged.txt
+Output:  
+
+warning: in the working copy of 'exercise-05/README.md', LF will be replaced by CRLF the next time Git touches it
+
+Command:  git diff --staged > diff_staged.txt
+Command:  git diff HEAD > diff_head.txt
+Output:
+
+warning: in the working copy of 'exercise-05/README.md', LF will be replaced by CRLF the next time Git touches it

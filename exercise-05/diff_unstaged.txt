@@ -1,0 +1,34 @@
+diff --git a/exercise-03/README.md b/exercise-03/README.md
+index e69de29..60ff792 100644
+--- a/exercise-03/README.md
++++ b/exercise-03/README.md
+@@ -0,0 +1,21 @@
++# Exercise 03 – Write and Improve a Greeting Script
++
++## Objective
++
++Create a shell script that accepts a user's name and displays a greeting. Improve the script to handle empty input and verify both cases.
++
++## Commands Used
++
++```bash
++bash greet.sh
++
++git add greet.sh
++git commit -m "Exercise 03: Add greeting script"
++
++git add greet.sh
++git commit -m "Exercise 03: Handle empty input"
++```
++
++## Output
++
++See [output.txt](output.txt) for the terminal output.
+\ No newline at end of file
+diff --git a/exercise-05/README.md b/exercise-05/README.md
+index 436140a..8027417 100644
+--- a/exercise-05/README.md
++++ b/exercise-05/README.md
+@@ -1 +1,2 @@
+ First edit
++Second edit

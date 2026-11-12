@@ -1,0 +1,7 @@
+diff --git a/exercise-05/README.md b/exercise-05/README.md
+new file mode 100644
+index 0000000..436140a
+--- /dev/null
++++ b/exercise-05/README.md
+@@ -0,0 +1 @@
++First edit

@@ -1,0 +1,58 @@
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ echo "Practice edit" >> README.md
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git add README.md
+warning: in the working copy of 'exercise-10/README.md', LF will be replaced by CRLF the next time Git touches it
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git restore --staged README.md
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git diff
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git restore README.md
+error: pathspec 'README.md' did not match any file(s) known to git
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git add README.md
+warning: in the working copy of 'exercise-10/README.md', LF will be replaced by CRLF the next time Git touches it
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git commit -m "Add Exercise 10 README"
+[main 085ee10] Add Exercise 10 README
+ 1 file changed, 1 insertion(+)
+ create mode 100644 exercise-10/README.md
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ echo "Practice edit" >> README.md
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git add README.md
+warning: in the working copy of 'exercise-10/README.md', LF will be replaced by CRLF the next time Git touches it
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git restore --staged README.md
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git diff
+warning: in the working copy of 'exercise-10/README.md', LF will be replaced by CRLF the next time Git touches it
+diff --git a/exercise-10/README.md b/exercise-10/README.md
+index 2554837..095cc95 100644
+--- a/exercise-10/README.md
++++ b/exercise-10/README.md
+@@ -1 +1,2 @@
+ Practice edit
++Practice edit
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git restore README.md
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-10 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean

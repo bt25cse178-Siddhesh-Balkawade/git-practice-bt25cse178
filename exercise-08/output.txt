@@ -1,0 +1,29 @@
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-08 (feature/help)
+$ echo "Run ./menu.sh and enter a number 1-4" > help.txt
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-08 (feature/help)
+$ git add help.txt
+warning: in the working copy of 'exercise-08/help.txt', LF will be replaced by CRLF the next time Git touches it
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-08 (feature/help)
+$ git commit -m "Add help documentation"
+[feature/help 994f333] Add help documentation
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-08 (feature/help)
+$ git checkout main
+M       exercise-03/README.md
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-08 (main)
+$ git merge feature/help
+Updating b9d8b4c..994f333
+Fast-forward
+ exercise-08/help.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exercise-08 (main)
+$ git branch -d feature/help
+Deleted branch feature/help (was 994f333).

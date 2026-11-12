@@ -1,0 +1,7 @@
+Output for name:
+Enter your name: Siddhesh Balkawade
+Hello, Siddhesh Balkawade!
+
+Ouput for empty input:
+Enter your name:
+Hello, Guest!

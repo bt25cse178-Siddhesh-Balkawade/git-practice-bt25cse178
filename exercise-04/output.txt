@@ -1,0 +1,42 @@
+Command:  git add file1.txt
+Command:  git status
+Output:
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file2.txt
+
+Command: git commit -m "Add file1.txt"
+Output:
+
+[main f5ceab8] Add file1.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 exercise-04/file1.txt
+
+Command: git status
+Output:
+
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Command: git add file2.txt
+Command: git commit -m "Add file2.txt"
+Output:
+
+[main fb0d94c] Add file2.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 exercise-04/file2.txt

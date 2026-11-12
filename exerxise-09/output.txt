@@ -1,0 +1,59 @@
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ echo "Mode: Default" > mode.txt
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ git add mode.txt
+warning: in the working copy of 'exerxise-09/mode.txt', LF will be replaced by CRLF the next time Git touches it
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ git commit -m "Add base mode"
+[main 1576201] Add base mode
+ 1 file changed, 1 insertion(+)
+ create mode 100644 exerxise-09/mode.txt
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ hit checkout -b feature/conflict
+bash: hit: command not found
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ git checkout -b feature/conflict
+Switched to a new branch 'feature/conflict'
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (feature/conflict)
+$ echo "Mode: Feature Branch" > mode.txt
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (feature/conflict)
+$ git commit -am "Update mode in features"
+warning: in the working copy of 'exerxise-09/mode.txt', LF will be replaced by CRLF the next time Git touches it
+[feature/conflict 84b04c6] Update mode in features
+ 2 files changed, 22 insertions(+), 1 deletion(-)
+ggi
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (feature/conflict)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ echo "Mode: Reslved Conflict" > mode.txt
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ git add mode.txt
+warning: in the working copy of 'exerxise-09/mode.txt', LF will be replaced by CRLF the next time Git touches it
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ git commit -m "Resoolve merge conflict in mode.txt"
+[main b649655] Resoolve merge conflict in mode.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+cc
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ cat mode.txt
+Mode: Reslved Conflict
+
+Siddhesh Balkawade@LAPTOP-51OGBKM9 UCRT64 ~/Desktop/git-practice-bt25cse178/exerxise-09 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean

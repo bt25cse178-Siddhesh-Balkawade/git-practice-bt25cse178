@@ -1,0 +1,16 @@
+Command:  echo -e "*.log\n*.tmp\nbuild/\n.env" > .gitignore
+Command:  touch test.log temp.tmp .env
+Command:  mkdir build
+Command:  touch build/output.exe
+Command:  git check-ignre -v test.log temp.tmo .env build/output.exe
+Ouput: 
+
+git: 'check-ignre' is not a git command. See 'git --help'.
+
+The most similar command is
+        check-ignore
+
+Command:  git check-ignre -v test.log temp.tmo .env build/output.exe
+Ouput: 
+
+fatal: pathspec 'diff_unstaged.txt' did not match any files

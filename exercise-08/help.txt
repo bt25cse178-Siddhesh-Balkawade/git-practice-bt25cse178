@@ -1,0 +1,1 @@
+Run ./menu.sh and enter a number 1-4.

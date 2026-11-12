@@ -1,0 +1,17 @@
+OUTPUT:
+1. Greet 2. Add 3. Even/Odd 4. Exit
+Choose: 1. Greet 2. Add 3. Even/Odd 4. Exit
+Choose: 1. Greet 2. Add 3. Even/Odd 4. Exit
+Choose: 1. Greet 2. Add 3. Even/Odd 4. Exit
+Choose: 1
+1. Greet 2. Add 3. Even/Odd 4. Exit
+Choose: 2
+A: 12
+B: 23
+Sum: 35
+1. Greet 2. Add 3. Even/Odd 4. Exit
+Choose: 3
+Num: 23
+Odd
+1. Greet 2. Add 3. Even/Odd 4. Exit
+Choose: 4
